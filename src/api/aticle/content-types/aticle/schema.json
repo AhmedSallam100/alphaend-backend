@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "aticles",
+  "info": {
+    "singularName": "aticle",
+    "pluralName": "aticles",
+    "displayName": "aticle"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imgSrc": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "articelSrc": {
+      "type": "string",
+      "required": true
+    },
+    "articelTitle": {
+      "type": "string",
+      "required": true
+    },
+    "articelDescripton": {
+      "type": "text",
+      "required": true
+    },
+    "writerImg": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "writerProfile": {
+      "type": "string",
+      "required": true
+    },
+    "writerName": {
+      "type": "string",
+      "required": true
+    },
+    "articelViews": {
+      "type": "integer"
+    }
+  }
+}

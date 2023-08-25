@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "designwebs",
+  "info": {
+    "singularName": "designweb",
+    "pluralName": "designwebs",
+    "displayName": "designweb"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imgSrc": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "text1": {
+      "type": "text",
+      "required": true
+    },
+    "bold": {
+      "type": "text"
+    },
+    "text2": {
+      "type": "text"
+    },
+    "text3": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
